@@ -1,7 +1,9 @@
-const CACHE_NAME = 'ug-tcc-v1';
+const CACHE_NAME = 'tcc-app-v3';
 const ASSETS = [
   './',
   './index.html',
+  './style.css',
+  './app.js',
   './manifest.json',
   './js/xlsx.full.min.js',
   './js/exceljs.min.js',
@@ -11,7 +13,7 @@ const ASSETS = [
   './js/jspdf.umd.min.js'
 ];
 
-// Install Event - Caches files
+// Install Event - Caches the files
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {

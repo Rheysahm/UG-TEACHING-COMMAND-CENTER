@@ -1,6 +1,6 @@
 {
-  "name": "UG Teaching Command Centre",
-  "short_name": "UG TCC",
+  "name": "UG-Chinese Teaching Command Centre",
+  "short_name": "TCC",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#003262",
